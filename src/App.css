@@ -1,6 +1,6 @@
 
 body {
-  background-color: rgb(78, 140, 140);
+  background-color: rgb(230, 240, 240);
 }
 
 ul {
@@ -19,10 +19,33 @@ ul li {
 }
 
 li :hover {
-  background-color: rgb(127, 127, 159);
+  background-color: rgb(222, 222, 232);
   transition: 1s;
+  border-radius: 4px;
 }
 
 a {
   text-decoration: none;
+}
+
+.saynup {
+  margin-left: 300px;
+  background-color: rgb(198, 235, 32);
+  border: solid 0.5px;
+  border-radius: 4px;  
+  padding: 5px;
+}
+.saynup:hover {
+  background-color: rgb(226, 226, 122);
+}
+
+.saynin {
+  margin-right: 250px;
+  border: solid 0.2px;
+  border-radius: 4px;
+  background-color: white;
+  
+}
+.saynin :hover {
+  background-color: rgba(239, 241, 242, 0.903);
 }

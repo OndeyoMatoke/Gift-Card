@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Download() {
+export default function Contact() {
   return (
     <div>
-      <p>my download</p>
+      <h1>my contact</h1>
     </div>
   )
 }

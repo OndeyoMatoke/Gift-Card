@@ -14,14 +14,17 @@ export default function Navbar() {
             <Link to="about/">About</Link>
           </li>
           <li>
-            <Link to="/product">Product</Link>
+            <Link to="/contact">Contact</Link>
           </li>
+
           <li>
-            <Link to="/rates">Rates</Link>
+            <Link to="/signup" className='saynup'>Create account</Link>
           </li>
+
           <li>
-            <Link to="/download">Download</Link>
+            <Link to="/signin" className='saynin'>Sign In</Link>
           </li>
+          
         </ul>
       </nav>
     </div>
