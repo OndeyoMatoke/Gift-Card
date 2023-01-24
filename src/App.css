@@ -3,11 +3,14 @@ body {
   background-color: rgb(230, 240, 240);
 }
 
+
+
+/* sytling Navbar */
 ul {
   
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-self: start;
   padding: 15px;
   margin: 0;
 }
@@ -28,6 +31,8 @@ a {
   text-decoration: none;
 }
 
+
+/* styling Sinup */
 .saynup {
   margin-left: 300px;
   background-color: rgb(198, 235, 32);
@@ -39,6 +44,8 @@ a {
   background-color: rgb(226, 226, 122);
 }
 
+
+/* styling Signin */
 .saynin {
   margin-right: 250px;
   border: solid 0.2px;
