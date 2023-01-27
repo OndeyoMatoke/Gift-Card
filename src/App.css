@@ -1,28 +1,26 @@
 
-body {
-  background-color: rgb(230, 240, 240);
-}
+
 
 
 
 /* sytling Navbar */
-ul {
-  
+/* nav {  
   list-style: none;
-  display: flex;
+  display: flex;  
+  flex-direction: row;
   justify-content: center;
   padding: 15px;
   margin: 0;
-}
+} */
 
-ul li {
+/* ul li {
   margin: 30px;
   font-size: 18px;
   
   
-}
+} */
 
-li :hover {
+/* li :hover {
   background-color: rgb(222, 222, 232);
   transition: 1s;
   border-radius: 4px;
@@ -30,11 +28,11 @@ li :hover {
 
 a {
   text-decoration: none;
-}
+} */
 
 
 /* styling Sinup */
-.saynup {
+/* .saynup {
   margin-left: 700px;
   background-color: rgb(198, 235, 32);
   border: solid 0.5px;
@@ -43,28 +41,92 @@ a {
 }
 .saynup:hover {
   background-color: rgb(226, 226, 122);
-}
+} */
 
 
 /* styling Signin */
-.saynin {
-  /* margin-right: 250px; */
+/* .saynin {
+   margin-right: 250px; 
   border: solid 0.2px;
   border-radius: 4px;
   background-color: white;
   
-}
-.saynin :hover {
+} */
+/* .saynin :hover {
   background-color: rgba(239, 241, 242, 0.903);
 }
 
 form {
   margin-left: 10px;
-}
+} */
 
-form input {
+/* form input {
   border: none;
   padding: 5px;
   width: 20%;
   background-color: rgb(235, 230, 223);  
+}  */
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(230, 240, 240);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+}
+
+.navbar-links li:hover {
+  background-color: rgb(184, 178, 171);
+}
+
+.menu {
+  color: white;
+  
+}
+
+@media (max-width: 800px) {
+ .menu {
+    display: flex;
+  } 
+
+  .navbar-links {
+    display: none;
+  }
+}
+
+
+.saynup {
+  position: absolute;
+  right: 100px;
+}
+
+
+
+.saynin {
+  position: absolute;
+  right: 5px;
 }
