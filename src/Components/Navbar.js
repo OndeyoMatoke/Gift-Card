@@ -6,10 +6,10 @@ export default function Navbar() {
   return (
     <>   
    
-      <nav className='navbar'>        
+      <nav className='navu'>        
         
         <i class="fa-solid fa-bars" className='menu'></i> 
-        <div className='navbar-links'>
+        <div className='navu-links'>
             <ul>
               <li>
                 <Link to="/">Home</Link>

@@ -77,29 +77,31 @@ body {
   padding: 0;
 }
 
-.navbar {
+.navu {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  
 }
 
-.navbar-links ul {
-  margin: 0;
-  padding: 0;
+.navu-links ul {
   display: flex;
+  padding: 0;
+  margin: 0;
+  
 }
 
-.navbar-links li {
+.navu-links li {
   list-style: none;
 }
 
-.navbar-links li a {
-  text-decoration: none;
-  padding: 20px;
+.navu-links li a {
   display: block;
+  text-decoration: none;
+  padding: 20px;  
 }
 
-.navbar-links li:hover {
+.navu-links li:hover {
   background-color: rgb(184, 178, 171);
 }
 
@@ -113,7 +115,7 @@ body {
     display: flex;
   } 
 
-  .navbar-links {
+  .navu-links {
     display: none;
   }
 }
