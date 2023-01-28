@@ -2,10 +2,17 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../App.css'
 
+
+import 'font-awesome/css/font-awesome.min.css' 
+import { FaBars } from 'react-icons/fa'
+
+
 export default function Navbar() {
   return (
     <>   
-   
+         <FaBars
+           className='menu'
+         />
       <nav className='navu'>        
         
         <i class="fa-solid fa-bars" className='menu'></i> 

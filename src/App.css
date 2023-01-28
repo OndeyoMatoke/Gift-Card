@@ -37,22 +37,55 @@ body {
 }
 
 .navu-links li:hover {
-  background-color: rgb(184, 178, 171);
+  background-color: rgb(199, 241, 241);;
+  border-radius: 5px;
 }
 
 .menu {
-  color: white;
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 20px;
   
 }
 
-@media (max-width: 800px) {
+
+@media (max-width: 600px) {
  .menu {
     display: flex;
   } 
 
   .navu-links {
-    display: none;
+    display: none;  
+    width: 100%;
   }
+
+  .navu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navu-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navu-links li a {
+    padding: 5px 1px;
+  }
+
+  .saynup {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+  }
+
+  .saynin {
+    position: absolute;
+    top: 130px;
+    left: 0px;
+  }
+
 }
 
 
@@ -61,9 +94,15 @@ body {
   right: 100px;
 }
 
-
+.saynup:hover{
+  background-color: beige;
+}
 
 .saynin {
   position: absolute;
-  right: 5px;
+  right: 5px;  
+}
+
+.saynin:hover{
+  background-color: beige;  
 }
