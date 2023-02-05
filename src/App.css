@@ -13,7 +13,7 @@ body {
 }
 
 .navu {
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: center;
   
@@ -53,6 +53,7 @@ body {
 @media (max-width: 600px) {
  .menu {
     display: flex;
+    cursor: pointer;
   } 
 
   .navu-links {
@@ -74,6 +75,8 @@ body {
     padding: 5px 1px;
   }
 
+
+  
   .saynup {
     position: absolute;
     top: 100px;

@@ -13,9 +13,7 @@ export default function Navbar() {
          <FaBars
            className='menu'
          />
-      <nav className='navu'>        
-        
-        <i class="fa-solid fa-bars" className='menu'></i> 
+      <nav className='navu'>       
         <div className='navu-links'>
             <ul>
               <li>
